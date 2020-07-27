@@ -1,0 +1,16 @@
+{
+	num = 11;
+	if (num > 0) {
+		num = num - 5;
+		if(num > 0) {
+			num  = num - 5;
+			if(num > 0) {
+				num = num - 5;
+				if(num > 0) {
+					num = num - 5;
+				}
+			}
+		}
+	}
+	print(num);
+}

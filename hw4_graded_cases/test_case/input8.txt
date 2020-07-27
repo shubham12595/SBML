@@ -1,0 +1,13 @@
+{
+    number = 10;
+    i = 1;
+    while(number > 1){
+        if (number mod 2==0) {
+            number = number div 2;
+        } else {
+            number = 3 * number + 1;
+        }
+        i = i + 1;
+    }
+    print(i - 1);
+}

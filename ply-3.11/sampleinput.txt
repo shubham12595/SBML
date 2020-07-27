@@ -1,0 +1,18 @@
+fun range(n,m) =
+{
+    if (n == m)
+    {
+        output = [m];
+
+    }
+    else
+    {
+        output = n::range(n+1,m);
+
+    }
+
+}output;
+
+{
+    print(range(0,5));
+}
