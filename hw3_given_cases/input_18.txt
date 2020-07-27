@@ -1,0 +1,1 @@
+['abc', 'def', ['ghi', 'jkl', ['mno', 'pqrs', ['tuv', 'wxyz']]]][2][2][2][1][0] in 'the quick brown fox jumps over the lazy dog.' or ['abc', 'def', ['ghi', 'jkl', ['mno', 'pqrs', ['tuv', 'wxyz']]]][2][2][2][1] in 'the quick brown fox jumps over the lazy dog.' and [[[[[["substring"]]]]]][0][0][0][0][0][0] in "There is no sub-string in this string";
