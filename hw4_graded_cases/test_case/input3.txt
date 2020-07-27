@@ -1,0 +1,26 @@
+{
+    nums = [5, 3, 14, 9];
+    i = 1;
+    while (i < 4) {
+        cur_val = nums[i];
+        pos = i;
+
+        flag = (pos > 0);
+        if(flag) {
+            flag = (nums[pos - 1] > cur_val);
+        }
+
+        while ( flag ) {
+            nums[pos] = nums[pos - 1];
+            pos = pos - 1;
+
+            flag = (pos > 0);
+            if(flag) {
+                flag = (nums[pos - 1] > cur_val);
+            }
+        }
+        nums[pos] = cur_val;
+        i = i + 1;
+    }
+    print(nums);
+}

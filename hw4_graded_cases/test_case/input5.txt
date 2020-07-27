@@ -1,0 +1,14 @@
+{
+	lst = [6];
+    num = 5;
+    while (num >= 0) {
+        temp = [num];
+        if (num mod 2 == 0) {
+            lst = temp + lst;
+        } else {
+            lst = temp :: lst;
+        }
+        num = num - 1;
+    }
+    print(lst);
+}
